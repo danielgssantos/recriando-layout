@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     margin: 0px;
     padding: 0px;
 }
@@ -11,6 +10,9 @@ body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     min-height: 100vh;
+    margin-left: 59px;
+    margin-right: 89px;
+    margin-top: 71px;
 }
 
 nav {
@@ -34,18 +36,20 @@ ul a {
     font-family: "JetBrains Mono", monospace;
 }
 
-main {
-    display: flex;
-}
+#principal {
+    float: left;
+    margin-right: 77px;
+    
 
+}
 
 h1 {
     font-family: "JetBrains Mono", monospace;
     font-style: normal;
     font-size: 36px;
     line-height: 40px;
-    
-
+    margin-bottom: 59px;
+    text-align: center;
 }
 
 h1 span {
@@ -54,12 +58,31 @@ h1 span {
 
 p {
     color: #c2c2c2;
-   
-
-    
+    line-height: 28px;
+    text-align: center;
+      
 }
 
 p span {
     color: #00bfa6;
 
 }
+
+#line {
+    margin: 167px auto 8px; 
+    width: 568px;
+    height: 0px;
+    border: 1px solid #00bfa6;
+    margin-bottom: 47px;
+}
+
+footer  {
+    margin-left: 285px;
+    margin-top: 47px;
+    margin-bottom: 23px;
+    margin-right: 356px;
+    text-align: center;  
+  
+
+}
+
